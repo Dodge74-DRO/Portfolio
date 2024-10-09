@@ -1,38 +1,66 @@
 [
     {
         "id": 1,
-        "titre": "Projet 1",
+        "titre": "Riding Cities",
         "image": "p1.jpg",
-        "description": "Ceci est la description du projet 1."
+        "description": "association sportive de skate board",
+        "objet":"objet"
     },
     {
         "id": 2,
-        "titre": "Projet 2",
+        "titre": "Booki",
         "image": "p2.jpg",
-        "description": "Ceci est la description du projet 2."
+        "description": "hébergements et activités selon la localisation",
+        "objet":"Premiers pas dans l'univers HTML/CSS sur ce projet. La mission était de créer une page via une maquette figma. Elle devait être responsive mobile, tablette et desktop. Les conditions à respecter étaient de simuler un bouton de recherche, d'appliquer des effets graphiques sur différents éléments de la page."
+
     },
     {
         "id": 3,
-        "titre": "Projet 3",
+        "titre": "OhMyFood",
         "image": "p3.jpg",
-        "description": "Ceci est la description du projet 3."
+        "description": "réservation et commande de menu en ligne",
+        "objet":"Création du site en suivant les maquettes fournies. L'objectif de ce projet est de développer en mobile first et d'appliquer le responsive design. Parmi les demandes, il y a la création d'un loader, appliquer des animations css et keyframe fluide en hoover."
     },
     {
         "id": 4,
-        "titre": "Projet 4",
+        "titre": "Print'it!",
         "image": "p4.jpg",
-        "description": "Ceci est la description du projet 4."
+        "description": "imprimerie familiale",
+        "objet":"objet"
     },
     {
         "id": 5,
-        "titre": "Projet 5",
+        "titre": "Sophie Bluel",
         "image": "p5.jpg",
-        "description": "Ceci est la description du projet 5."
+        "description": "portfolio d'une photographe professionnelle",
+        "objet":"objet"
     },
     {
         "id": 6,
-        "titre": "Projet 6",
+        "titre": "Kasa",
         "image": "p6.jpg",
-        "description": "Ceci est la description du projet 6."
+        "description": "location d'appartements entre particuliers",
+        "objet":"Refonte du site Web Kasa avec utilisation d'une base de données. React a été utilisé pour le front-end notamment via la création de composants modulaires, ainsi que l'utilisation du système de routes pour créer plusieurs pages. Ce fut une expérience enrichissante de concevoir et de mettre en œuvre des composants en suivant la syntaxe spécifique de React."
+    },
+    {
+        "id": 7,
+        "titre": "Nina Carducci",
+        "image": "p7.jpg",
+        "description": "portfolio d'une photographe professionnelle",
+        "objet":"Optimisations de la one page d'une photographe afin de la rendre plus accessible aux utilisateurs ayant une déficience visuelle grâce aux principes d'accessibilités. Le redimensionnement et la conversion des images aux bon formats, permet d'améliorer les performances d'affichages. L'objectif demandé est d'obtenir un score d'au moins 90 sur Lighthouse. Une amélioration du SEO à notamment était effectuée en ajoutant une balise meta title, en renommant les images et en contribuant les balises ALT."
+    },
+    {
+        "id": 8,
+        "titre": "724events",
+        "image": "p8.jpg",
+        "description": "agence évènementielle",
+        "objet":"objet"
+    },
+    {
+        "id": 9,
+        "titre": "ArgentBank",
+        "image": "p9.jpg",
+        "description": "banque en ligne",
+        "objet":"Intégration du front-end et du back-end via l'utilisation d'une API. J'ai transformé le site statique en une application web responsive avec React et Redux Toolkit, en mettant l'accent sur la gestion de la connexion de l'utilisateur et la possibilité de modifier son pseudo. Grâce à Redux Toolkit, j'ai pu centraliser les données et les rendres accessibles dans tous les composants."
     }
 ]

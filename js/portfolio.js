@@ -22,8 +22,8 @@ function genererGalerie(DataProjets) {
         divSinglePortfolio.appendChild(imgElement);
         // Ajout d'un événement click pour rediriger vers la page de détails
         imgElement.addEventListener('click', () => {
-        sauvegarderPositionScroll(); // Sauvegarde la position de défilement actuelle
-        window.location.href = `portfolio-details.html?id=${projet.id}`;
+            sauvegarderPositionScroll(); // Sauvegarde la position de défilement actuelle
+            window.location.href = `portfolio-details.html?id=${projet.id}`;
         });
             
         const divOverlay = document.createElement('div');
@@ -31,8 +31,8 @@ function genererGalerie(DataProjets) {
         divSinglePortfolio.appendChild(divOverlay);
         // Ajout d'un événement click pour rediriger vers la page de détails
         divOverlay.addEventListener('click', () => {
-        sauvegarderPositionScroll(); // Sauvegarde la position de défilement actuelle
-        window.location.href = `portfolio-details.html?id=${projet.id}`;
+            sauvegarderPositionScroll(); // Sauvegarde la position de défilement actuelle
+            window.location.href = `portfolio-details.html?id=${projet.id}`;
         });
 
         const ahref =  document.createElement('div');
@@ -45,8 +45,9 @@ function genererGalerie(DataProjets) {
         ahref.appendChild(divIcon);
         // Ajout d'un événement click pour rediriger vers la page de détails
         divIcon.addEventListener('click', () => {
+            sauvegarderPositionScroll(); // Sauvegarde la position de défilement actuelle
             window.location.href = `portfolio-details.html?id=${projet.id}`;
-            });
+        });
                 
 
         const span = document.createElement('span');
@@ -71,6 +72,7 @@ function genererGalerie(DataProjets) {
         divPortfolioBox.appendChild(divShortInfo);
         portfolio.appendChild(projectElement);
     });
+//    restaurerPositionScroll(); // Restaurer la position de défilement après chargement des projets
 }
 
 // Charger les données du fichier JSON
@@ -79,7 +81,6 @@ async function chargerProjets() {
         const response = await fetch('./datas/projets.json'); // Charger le fichier JSON
         const DataProjets = await response.json(); // Convertir la réponse en JSON
         genererGalerie(DataProjets); // Appeler la fonction pour afficher les projets
-        restaurerPositionScroll(); // Restaurer la position de défilement après chargement des projets
     } catch (error) {
         console.error("Erreur lors du chargement des projets : ", error);
     }
@@ -87,7 +88,9 @@ async function chargerProjets() {
 
 // Fonction pour sauvegarder la position de défilement dans le sessionStorage
 function sauvegarderPositionScroll() {
-    sessionStorage.setItem('scrollPosition', window.scrollY); // Sauvegarde la position verticale actuelle
+    sessionStorage.setItem('scrollPosition', window.scrollY);
+    sessionStorage.setItem('pageHeight', document.body.scrollHeight);
+    console.log(window.scrollY)
 }
 
 // Fonction pour restaurer la position de défilement après rechargement de la page
@@ -95,8 +98,11 @@ function restaurerPositionScroll() {
     const scrollPosition = sessionStorage.getItem('scrollPosition');
     if (scrollPosition !== null) {
         window.scrollTo(0, parseInt(scrollPosition)); // Restaurer la position sauvegardée
+        // Effacer la position sauvegardée
+        sessionStorage.removeItem('scrollPosition');
     }
 }
+
 
 // Appelle la fonction pour générer la galerie
 document.addEventListener('DOMContentLoaded', chargerProjets);

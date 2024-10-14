@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="139" height="35" viewBox="0 0 139 35">
+  <defs>
+    <linearGradient id="bleu-mauve" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#1e90ff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8a2be2;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <ellipse cx="69.5" cy="17.5" rx="69" ry="17" fill="url(#bleu-mauve)" />  <style>
+    .text { font-family: Arial, sans-serif; font-weight: bold; font-size: 28px; }
+    .normal { fill: #333; }
+    .inverted { fill: white; }
+  </style>
+  <text x="30" y="28" class="text normal">W</text>
+  <g transform="translate(52.5,28) scale(-1,-1) translate(-52.5,-28)">
+    <text x="27" y="47" fill="white" class="text inverted">à</text>
+  </g>
+  <text x="85" y="28" class="text normal">B</text>
+</svg>

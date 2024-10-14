@@ -1,10 +1,3 @@
-/*!
- * Bootstrap v4.1.3 (https://getbootstrap.com/)
- * Copyright 2011-2018 The Bootstrap Authors
- * Copyright 2011-2018 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- */
-
 :root {
     --blue: #007bff;
     --indigo: #6610f2;
@@ -176,7 +169,7 @@ sup {
 }
 
 a {
-    color: #007bff;
+    color: black;
     text-decoration: none;
     background-color: transparent;
     -webkit-text-decoration-skip: objects
@@ -3141,9 +3134,9 @@ input[type=submit].btn-block {
     opacity: 0
 }
 
-.collapse:not(.show) {
+/*.collapse:not(.show) {
     display: none
-}
+}*/
 
 .collapsing {
     position: relative;
@@ -4213,8 +4206,8 @@ input[type=submit].btn-block {
 .navbar-nav {
     display: -ms-flexbox;
     display: flex;
-    -ms-flex-direction: column;
-    flex-direction: column;
+    -ms-flex-direction: row;
+    flex-direction: row;
     padding-left: 0;
     margin-bottom: 0;
     list-style: none
@@ -9310,5 +9303,3 @@ a.text-dark:hover {
         border-color: #dee2e6
     }
 }
-
-/*# sourceMappingURL=bootstrap.min.css.map */

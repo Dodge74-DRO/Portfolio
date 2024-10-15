@@ -40,28 +40,21 @@
                 <div class="row">
                     <div class="col-lg-6">
                         <div class="left_img">
-                            <img class="img-fluid" src="img/portfolio/p1.jpg" alt="">
+                            <img id="project-image" class="img-fluid" src="" alt="image du site">
                         </div>
                     </div>
                     <div class="offset-lg-1 col-lg-5">
-                        <div class="portfolio_right_text mt-30">
-                            <h4 class="text-uppercase">RIDING CITIES</h4>
-                            <p>
-                                Mon tout premier projet, à l’agence Webonzai. Romain le CTO de l’agence, m’a confié la mise à jour de la page web de Riding Cities, qui est une association sportive qui promeut le skate en région.
-                                <br>La mission était de faire évoluer le site en réalisant:
-                                <br>- une nouvelle section pour présenter les membres fondateurs, avec les noms et photos.
-                                <br>- modifier la section de téléchargement du planning de cours en le scindant en deux boutons permettant de télécharger d'une part le planning adultes et d'autre part celui des enfants.
-                            </p>
-                            <ul class="list">
-                                <li><span>Website : </span><a target="_blank" href="https://dodge74-dro.github.io/_site-Riding-Cities/">RidingCities.fr</a></li>
-                                <li><span>Source : </span><a target="_blank" href="https://github.com/Dodge74-DRO/_site-Riding-Cities.git"><img src="./img/logos/github-link.png"/></a></li>
+                        <div class="portfolio_right_text mt-30" id="project-details">
+                            <h4 id="project-titre" class="text-uppercase">TITRE DU PROJET</h4>
+                            <div id="project-objet"></div>
+                            <ul class="list" id="links_project">
+                                <li id="link_website"><span>Website : </span><a id="project-website" target="_blank" href="#"><img src="./img/logos/internet.png"/></a></li>
+                                <li id="link_source"><span>Source : </span><a id="project-source" target="_blank" href="#"><img src="./img/logos/github-link.png"/></a></li>
                             </ul>
                         </div>
                     </div>
                 </div>
-                <p>Ce projet était mes premiers pas dans le langage HTML et CSS.
-                    <br>Les cours m'ont permis de créer mon premier site web en HTML5 et CSS3.
-                    <br>Il m'a permis de me familisariser avec l'éditeur de code Visual Studio.</p>
+                <div id="project-competences">Compétences acquises</div>
             </div>
         </div>
     </section>
@@ -75,8 +68,8 @@
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="js/jquery-3.2.1.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <!--gmaps Js-->
+    <script src="js/bootstrap.js"></script>
+    <script src="js/portfolio-details.js"></script>
 	<script src="loader.js"></script>
 </body>
 

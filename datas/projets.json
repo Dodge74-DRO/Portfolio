@@ -4,63 +4,92 @@
         "titre": "Riding Cities",
         "image": "p1.jpg",
         "description": "association sportive de skate board",
-        "objet":"objet"
+        "website":"https://dodge74-dro.github.io/_site-Riding-Cities/",
+        "source":"https://github.com/Dodge74-DRO/_site-Riding-Cities.git",
+        "objet":["Romain le CTO de l’agence Webonzai, m’a confié la mise à jour de la page web de Riding Cities, qui est une association sportive qui promeut le skate en région.",
+                 "La mission était de faire évoluer le site avec la création d'une nouvelle section pour présenter les membres fondateurs, avec les noms et photos et la modification de la section de téléchargement du planning de cours en le scindant en deux boutons permettant de télécharger d'une part le planning adultes et d'autre part celui des enfants."],
+        "competences":["Ce projet était mes premiers pas dans le langage HTML et CSS.",
+                       "Les cours m'ont permis de créer mon premier site web en HTML5 et CSS3.",
+                       "Il m'a permis de me familisariser avec l'éditeur de code Visual Studio."]
     },
     {
         "id": 2,
         "titre": "Booki",
         "image": "p2.jpg",
         "description": "hébergements et activités selon la localisation",
-        "objet":"Premiers pas dans l'univers HTML/CSS sur ce projet. La mission était de créer une page via une maquette figma. Elle devait être responsive mobile, tablette et desktop. Les conditions à respecter étaient de simuler un bouton de recherche, d'appliquer des effets graphiques sur différents éléments de la page."
-
+        "website":"https://dodge74-dro.github.io/Booki/",
+        "source":"https://github.com/Dodge74-DRO/Booki",
+        "objet":["Premiers pas dans l'univers HTML/CSS sur ce projet.","La mission était de créer une page via une maquette figma.","Elle devait être responsive mobile, tablette et desktop.","Les conditions à respecter étaient de simuler un bouton de recherche, d'appliquer des effets graphiques sur différents éléments de la page."],
+        "competences":["Ce projet a marqué ma première incursion dans le domaine du HTML/CSS<br>et du 'responsive design', à partir d'une maquette sur Figma <br>que j'ai dû suivre méticuleusement, respectant ainsi le travail du designer UI."]
     },
     {
         "id": 3,
         "titre": "OhMyFood",
         "image": "p3.jpg",
         "description": "réservation et commande de menu en ligne",
-        "objet":"Création du site en suivant les maquettes fournies. L'objectif de ce projet est de développer en mobile first et d'appliquer le responsive design. Parmi les demandes, il y a la création d'un loader, appliquer des animations css et keyframe fluide en hoover."
+        "website":"https://dodge74-dro.github.io/ohmyfood/",
+        "source":"https://github.com/Dodge74-DRO/ohmyfood/tree/master",
+        "objet":["Création du site en suivant les maquettes fournies. L'objectif de ce projet est de développer en mobile first et d'appliquer le responsive design.<br>Parmi les demandes, il y a la création d'un loader, appliquer des animations css et keyframe fluide en hoover."],
+        "competences":["Ce projet visait à adopter une approche 'mobile first' pour ensuite<br>l'étendre à une version desktop, tout en enrichissant<br>les fonctionnalités du CSS grâce à l'utilisation du pré-processeur Sass."]
     },
     {
         "id": 4,
         "titre": "Print'it!",
         "image": "p4.jpg",
         "description": "imprimerie familiale",
-        "objet":"objet"
+        "website":"https://dodge74-dro.github.io/PRINT-IT/",
+        "source":"https://github.com/Dodge74-DRO/PRINT-IT",
+        "objet":["Mettre à jour le code HTML existant et ajouter un carrousel en JavaScript.<br>Il m'a permis de comprendre comment JavaScript intéragit avec le HTML et le CSS pour créer des éléments web interactifs"],
+        "competences":["Le projet avait pour but de dynamiser le site internet grace au langage JavaScript"]
     },
     {
         "id": 5,
         "titre": "Sophie Bluel",
         "image": "p5.jpg",
         "description": "portfolio d'une photographe professionnelle",
-        "objet":"objet"
+        "website":"https://dodge74-dro.github.io/PortFolioSophieBluel/",
+        "source":"https://github.com/Dodge74-DRO/PortFolioSophieBluel",
+        "objet":["D'après les maquettes fournies, le code front-end d'origine de la version statique et du code back-end,<br>l'objectif est<br>- modifier la page de présentation selon la maquette<br>- créer la page de connexion pour administrer le site<br>- ajouter une modale permettant la gestion de la galerie des réalisations de l'architecte"],
+        "competences":["Ce projet engage à créer une page web dynamique en utilisant JavaScript<br>et en communiquant avec une API"]
     },
     {
         "id": 6,
         "titre": "Kasa",
         "image": "p6.jpg",
         "description": "location d'appartements entre particuliers",
-        "objet":"Refonte du site Web Kasa avec utilisation d'une base de données. React a été utilisé pour le front-end notamment via la création de composants modulaires, ainsi que l'utilisation du système de routes pour créer plusieurs pages. Ce fut une expérience enrichissante de concevoir et de mettre en œuvre des composants en suivant la syntaxe spécifique de React."
+        "website":null,
+        "source":"https://github.com/Dodge74-DRO/KASA",
+        "objet":["Refonte du site Web Kasa avec utilisation d'une base de données.<br>Utilisation de React pour le front-end notamment via la création de composants modulaires, ainsi que la création du système de routes pour naviguer entre plusieurs pages.<br>Concevoir et de mettre en œuvre des composants en suivant la syntaxe spécifique de React."],
+        "competences":["Cet projet était une introduction à React et React Router :<br>création de routes,<br>découpage du site en composants,<br>utilisation d'une base de données pour explorer ces technologies."]
     },
     {
         "id": 7,
         "titre": "Nina Carducci",
         "image": "p7.jpg",
         "description": "portfolio d'une photographe professionnelle",
-        "objet":"Optimisations de la one page d'une photographe afin de la rendre plus accessible aux utilisateurs ayant une déficience visuelle grâce aux principes d'accessibilités. Le redimensionnement et la conversion des images aux bon formats, permet d'améliorer les performances d'affichages. L'objectif demandé est d'obtenir un score d'au moins 90 sur Lighthouse. Une amélioration du SEO à notamment était effectuée en ajoutant une balise meta title, en renommant les images et en contribuant les balises ALT."
+        "website":"https://dodge74-dro.github.io/ninaCarducci/",
+        "source":"https://github.com/Dodge74-DRO/ninaCarducci/tree/master",
+        "objet":["Optimisations de la one page d'une photographe afin de la rendre plus accessible aux utilisateurs ayant une déficience visuelle grâce aux principes d'accessibilités.<br>Le redimensionnement et la conversion des images aux bon formats, permet d'améliorer les performances d'affichages.<br>L'objectif demandé est d'obtenir un score d'au moins 90 sur Lighthouse.<br>Une amélioration du SEO à notamment était effectuée en ajoutant une balise meta title, en renommant les images et en contribuant les balises ALT."],
+        "competences":["Cet projet était axé sur l'optimisation SEO en améliorant ses performances<br>et son accessibilité, notamment par l'optimisation du code et des ressources,<br>ainsi que l'intégration de références aux réseaux sociaux."]
     },
     {
         "id": 8,
         "titre": "724events",
         "image": "p8.jpg",
         "description": "agence évènementielle",
-        "objet":"objet"
+        "website":"",
+        "source":"https://github.com/Dodge74-DRO/724events/tree/master",
+        "objet":["Débugger le site d'une agence évènnementiel et compléter le cahier de recette."],
+        "competences":["Maîtrise des outils tels que React Developper Tools, Npm et Node.js pour détecter et corriger les erreurs de code"]
     },
     {
         "id": 9,
         "titre": "ArgentBank",
         "image": "p9.jpg",
         "description": "banque en ligne",
-        "objet":"Intégration du front-end et du back-end via l'utilisation d'une API. J'ai transformé le site statique en une application web responsive avec React et Redux Toolkit, en mettant l'accent sur la gestion de la connexion de l'utilisateur et la possibilité de modifier son pseudo. Grâce à Redux Toolkit, j'ai pu centraliser les données et les rendres accessibles dans tous les composants."
+        "website":"",
+        "source":"https://github.com/Dodge74-DRO/argentBank",
+        "objet":["Intégration du front-end et du back-end via l'utilisation d'une API.<br>Transformation du site statique en une application web responsive avec React et Redux Toolkit, en mettant l'accent sur la gestion de la connexion de l'utilisateur et la possibilité de modifier son pseudo. Redux Toolkit, permet de centraliser les données et les rendres accessibles dans tous les composants."],
+        "competences":["Cet projet nous invitait à explorer Redux, mais m'a également offert l'opportunité<br>d'approfondir mes connaissances en découvrant Redux Toolkit, notamment<br>son Query (RTKQ), ainsi que le code splitting, et bien d'autres fonctionnalités."]
     }
 ]

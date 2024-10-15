@@ -3693,7 +3693,12 @@ h6 {
         }
     }
 
+    .display_none {
+        display: none;
+    }
+
     .portfolio_right_text {
+
         margin-top: 50px;
 
         h4 {
@@ -3701,9 +3706,12 @@ h6 {
             margin-bottom: 18px;
         }
 
-        p {
+        div {
             margin-bottom: 25px;
             font-size: 14px;
+        }
+        p {
+            margin: 0;
         }
 
         .list li {
@@ -3735,6 +3743,10 @@ h6 {
     .portfolio_details_inner .row {
         margin-bottom: 30px;
     }
+}
+
+#project-competences p {
+    margin: 0;
 }
 
 /* End Portfolio Area css

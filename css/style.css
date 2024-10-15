@@ -3077,6 +3077,9 @@ h6 {
 .portfolio_details_inner p:last-child {
   margin-bottom: 0px;
 }
+.portfolio_details_inner .display_none {
+  display: none;
+}
 .portfolio_details_inner .portfolio_right_text {
   margin-top: 50px;
 }
@@ -3084,9 +3087,12 @@ h6 {
   font-size: 20px;
   margin-bottom: 18px;
 }
-.portfolio_details_inner .portfolio_right_text p {
+.portfolio_details_inner .portfolio_right_text div {
   margin-bottom: 25px;
   font-size: 14px;
+}
+.portfolio_details_inner .portfolio_right_text p {
+  margin: 0;
 }
 .portfolio_details_inner .portfolio_right_text .list li {
   margin-bottom: 7px;
@@ -3113,6 +3119,10 @@ h6 {
     margin-bottom: 30px;
   }
 }
+#project-competences p {
+  margin: 0;
+}
+
 /* End Portfolio Area css
 ============================================================================================ */
 /* Start Testimonial Area css

@@ -1,0 +1,42 @@
+[
+    {
+        "image": "img/logos/html5.png",
+        "titre": "HTML5",
+        "texte": "Bonne maîtrise des balises sémantiques, et des formulaires avancés"
+    },
+    {
+        "image": "img/logos/css3.png",
+        "titre": "CSS3",
+        "texte": "Mises en page flexibles avec Flexbox et Grid, animations CSS3, et design responsive"
+    },
+    {
+        "image": "img/logos/sass.png",
+        "titre": "SASS",
+        "texte": "Gestion optimisée des styles via variables, mixins et imbrications"
+    },
+    {
+        "image": "img/logos/javascript.png",
+        "titre": "JAVASCRIPT",
+        "texte": "Manipulation du DOM, des événements, et de la programmation asynchrone."
+    },
+    {
+        "image": "img/logos/react.png",
+        "titre": "REACT",
+        "texte": "Développement d'interfaces dynamiques et réactives, avec des hooks et gestion de l'état."
+    },
+    {
+        "image": "img/logos/react-router.png",
+        "titre": "REACT-ROUTER",
+        "texte": "Gestion de la navigation et du routage, avec imbrication et redirection"
+    },
+    {
+        "image": "img/logos/redux.png",
+        "titre": "REDUX",
+        "texte": "Gestion de l'état dans les applications React, avec centralisation et prévisibilité"
+    },
+    {
+        "image": "img/logos/github.png",
+        "titre": "GITHUB",
+        "texte": "Gestion de versions, collaboration sur des projets, déploiement"
+    }
+]

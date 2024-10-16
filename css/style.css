@@ -110,15 +110,6 @@ button:focus {
     padding: 200px 0;
   }
 }
-.section_gap_bottom {
-  padding-bottom: 200px;
-}
-
-@media (max-width: 1199px) {
-  .section_gap_bottom {
-    padding-bottom: 80px;
-  }
-}
 /* Main Title Area css
 ============================================================================================ */
 .main_title {
@@ -3625,7 +3616,7 @@ h6 {
   /* End Home Banner Area css
   ============================================================================================ */
   .section_gap {
-    padding-top: 70px;
+    padding-top: 200px;
     padding-bottom: 70px;
   }
   .main_title h2 {

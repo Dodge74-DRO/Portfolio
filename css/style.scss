@@ -117,16 +117,6 @@ button:focus {
     }
 }
 
-.section_gap_bottom {
-    padding-bottom: 200px;
-}
-
-@media (max-width: 1199px) {
-    .section_gap_bottom {
-        padding-bottom: 80px;
-    }
-}
-
 /* Main Title Area css
 ============================================================================================ */
 
@@ -4351,7 +4341,7 @@ h6 {
   ============================================================================================ */
 
     .section_gap {
-        padding-top: 70px;
+        padding-top: 200px;
         padding-bottom: 70px;
     }
 

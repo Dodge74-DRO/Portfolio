@@ -1,7 +1,6 @@
 // 1. Récupérer l'ID de l'URL
 const urlParams = new URLSearchParams(window.location.search);
 const projectId = urlParams.get('id'); // "7" dans cet exemple
-console.log(projectId);
 
 // 2. Charger la base de données JSON
 fetch('./datas/projets.json') // Remplacez par le chemin vers votre fichier JSON
@@ -12,8 +11,6 @@ fetch('./datas/projets.json') // Remplacez par le chemin vers votre fichier JSON
 
     // 4. Vérifier si l'élément est trouvé
     if (project) {
-    
-        console.log(project)
     
       // Mettre à jour l'image
     const projectImage = document.getElementById('project-image');

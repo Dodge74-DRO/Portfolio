@@ -90,7 +90,6 @@ async function chargerProjets() {
 function sauvegarderPositionScroll() {
     sessionStorage.setItem('scrollPosition', window.scrollY);
     sessionStorage.setItem('pageHeight', document.body.scrollHeight);
-    console.log(window.scrollY)
 }
 
 // Fonction pour restaurer la position de défilement après rechargement de la page

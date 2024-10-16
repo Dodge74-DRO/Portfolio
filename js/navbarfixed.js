@@ -1,7 +1,7 @@
 (function($) {
 	'use strict';
 
-	var nav_offset_top = $('header').height() + 50;
+	var nav_offset_top = $('header').height() + 50; /* récupère la hauteur du header + 50 */
 	/*-------------------------------------------------------------------------------
 	  Navbar 
 	-------------------------------------------------------------------------------*/

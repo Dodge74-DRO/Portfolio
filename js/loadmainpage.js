@@ -21,3 +21,18 @@ window.addEventListener('load', function() {
         checkContentLoaded();
     }
 });
+
+document.addEventListener('DOMContentLoaded', function() {
+    var form = document.getElementById('contactForm');
+    form.addEventListener('submit', function(e) {
+        console.log('envoi email')
+        e.preventDefault(); // Empêche la soumission normale du formulaire
+        
+        var subject = document.getElementById('subject').value;
+        var encodedSubject = encodeURIComponent(subject);
+        var newAction = form.action + '?subject=' + encodedSubject;
+        
+        form.action = newAction; // Met à jour l'URL de l'action
+        form.submit(); // Soumet le formulaire avec la nouvelle action
+    });
+});

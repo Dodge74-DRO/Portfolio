@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 139 139">
+  <defs>
+    <linearGradient id="bleu-mauve" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#4458dc;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#854fee;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <circle cx="69.5" cy="69.5" r="69" fill="url(#bleu-mauve)" />
+
+  <style>
+    .text { font-family: Arial, sans-serif; font-weight: bold; font-size: 48px; }
+    .normal { fill: white; }
+  </style>
+
+  <text x="25" y="90" class="text normal">WàB</text>
+</svg>

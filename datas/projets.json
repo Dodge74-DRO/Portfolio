@@ -57,7 +57,7 @@
         "titre": "Kasa",
         "image": "p6.jpg",
         "description": "location d'appartements entre particuliers",
-        "website":null,
+        "website":"https://dodge74-dro.github.io/kasa-pages/",
         "source":"https://github.com/Dodge74-DRO/KASA",
         "objet":["Refonte du site Web Kasa avec utilisation d'une base de données.<br>Utilisation de React pour le front-end notamment via la création de composants modulaires, ainsi que la création du système de routes pour naviguer entre plusieurs pages.<br>Concevoir et de mettre en œuvre des composants en suivant la syntaxe spécifique de React."],
         "competences":["Cet projet était une introduction à React et React Router :<br>création de routes,<br>découpage du site en composants,<br>utilisation d'une base de données pour explorer ces technologies."]

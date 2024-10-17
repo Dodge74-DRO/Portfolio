@@ -49,7 +49,6 @@ function genererGalerie(DataProjets) {
             window.location.href = `portfolio-details.html?id=${projet.id}`;
         });
                 
-
         const span = document.createElement('span');
         span.className="lnr lnr-cross";
         divIcon.appendChild(span);
@@ -72,7 +71,6 @@ function genererGalerie(DataProjets) {
         divPortfolioBox.appendChild(divShortInfo);
         portfolio.appendChild(projectElement);
     });
-//    restaurerPositionScroll(); // Restaurer la position de défilement après chargement des projets
 }
 
 // Charger les données du fichier JSON
@@ -91,17 +89,6 @@ function sauvegarderPositionScroll() {
     sessionStorage.setItem('scrollPosition', window.scrollY);
     sessionStorage.setItem('pageHeight', document.body.scrollHeight);
 }
-
-// Fonction pour restaurer la position de défilement après rechargement de la page
-function restaurerPositionScroll() {
-    const scrollPosition = sessionStorage.getItem('scrollPosition');
-    if (scrollPosition !== null) {
-        window.scrollTo(0, parseInt(scrollPosition)); // Restaurer la position sauvegardée
-        // Effacer la position sauvegardée
-        sessionStorage.removeItem('scrollPosition');
-    }
-}
-
 
 // Appelle la fonction pour générer la galerie
 document.addEventListener('DOMContentLoaded', chargerProjets);

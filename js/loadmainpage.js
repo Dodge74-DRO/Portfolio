@@ -22,7 +22,7 @@ window.addEventListener('load', function() {
     }
 });
 
-document.addEventListener('DOMContentLoaded', function() {
+/* document.addEventListener('DOMContentLoaded', function() {
     var form = document.getElementById('contactForm');
     form.addEventListener('submit', function(e) {
         console.log('envoi email')
@@ -34,5 +34,24 @@ document.addEventListener('DOMContentLoaded', function() {
         
         form.action = newAction; // Met à jour l'URL de l'action
         form.submit(); // Soumet le formulaire avec la nouvelle action
+    });
+});*/
+document.addEventListener('DOMContentLoaded', function() {
+    var form = document.getElementById('contactForm');
+    form.addEventListener('submit', function(e) {
+        e.preventDefault(); // Empêche la soumission du formulaire
+
+        var subject = document.getElementById('subject').value;
+        var name = document.getElementById('name').value;
+        var email = document.getElementById('email').value;
+        var message = document.getElementById('message').value;
+
+        // Construire l'URL mailto
+        var mailtoLink = 'mailto:contact@dodge74.fr'
+            + '?subject=' + encodeURIComponent(subject)
+            + '&body=' + encodeURIComponent('Nom: ' + name + '\nEmail: ' + email + '\nMessage: ' + message);
+
+        // Rediriger vers l'URL mailto
+        window.location.href = mailtoLink;
     });
 });

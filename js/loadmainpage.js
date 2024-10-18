@@ -1,3 +1,4 @@
+// restaurer la position dans la page (avant visu page détail d'un projet
 window.addEventListener('load', function() {
     const scrollPosition = sessionStorage.getItem('scrollPosition');
     const savedPageHeight = sessionStorage.getItem('pageHeight');
@@ -16,26 +17,11 @@ window.addEventListener('load', function() {
                 setTimeout(checkContentLoaded, 200);
             }
         }
-
         // Commencer la vérification
         checkContentLoaded();
     }
 });
-
-/* document.addEventListener('DOMContentLoaded', function() {
-    var form = document.getElementById('contactForm');
-    form.addEventListener('submit', function(e) {
-        console.log('envoi email')
-        e.preventDefault(); // Empêche la soumission normale du formulaire
-        
-        var subject = document.getElementById('subject').value;
-        var encodedSubject = encodeURIComponent(subject);
-        var newAction = form.action + '?subject=' + encodedSubject;
-        
-        form.action = newAction; // Met à jour l'URL de l'action
-        form.submit(); // Soumet le formulaire avec la nouvelle action
-    });
-});*/
+// envoi d'un mail avec la messagerie par défaut
 document.addEventListener('DOMContentLoaded', function() {
     var form = document.getElementById('contactForm');
     form.addEventListener('submit', function(e) {
